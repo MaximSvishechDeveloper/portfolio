@@ -121,6 +121,18 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: #343a40;
 }
 
+.flex-grow-1 span {
+  text-decoration: none;
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out; /
+}
+
+.flex-grow-1 span:hover {
+  color: #ff6347; 
+}
+
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
 }
